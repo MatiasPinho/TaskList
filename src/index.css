@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+:root {
+  --color-brand: #a4eefb;
+  --color-prominent: #222628;
+  --color-text-soft: #757575;
+  --color-card-unique: #404040;
+  --color-task-list: #8d77fe;
+  --color-sub-task-list: #d585b6;
+  --color-background: border-radius: 20px;
+  background: linear-gradient(197deg, #000 -17.01%, #3C3C3C -17%, #171616 20.06%, #1D1D1D 91.98%, #3C3C3C 120.63%);;
+  --color-choice-task1: #a6ff7c;
+  --color-choice-task2: #e52c2c;
+  --color-choice-task3: #8d77fe;
+  --color-choice-task4: #ffc37c;
+  --color-choice-task5: #4447ba;
+  --color-choice-task6: #a6ff7c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans";
+}
+
+body {
+  
+background: linear-gradient(197deg, #000 -17.01%, #3C3C3C -17%, #171616 20.06%, #1D1D1D 91.98%, #3C3C3C 120.63%);
+  min-height: 100vh;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
