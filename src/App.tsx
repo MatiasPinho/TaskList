@@ -1,19 +1,15 @@
-import { useState } from "react";
+import { useState, useContext } from "react";
 import "./App.css";
-import { getCurrentTimeFormatted } from "./utils/getCurrentTime";
+import { pageContext } from "./context/pageContext";
+import { State } from "./context/State";
+import { Hola } from "./components/Hola";
 
 function App() {
-  const [currentTimeReal, setCurrentTimeReal] = useState(
-    getCurrentTimeFormatted()
-  );
-
-  setInterval(() => {
-    setCurrentTimeReal(getCurrentTimeFormatted());
-  }, 1000);
-
   return (
     <>
-      <h1>¡Hola Mundo! {currentTimeReal}</h1>
+      <State>
+        <Hola></Hola>
+      </State>
     </>
   );
 }
