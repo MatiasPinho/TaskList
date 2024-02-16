@@ -1,5 +1,7 @@
+/* Importaciones de fuentes */
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 
+/* Variables personalizadas */
 :root {
   --color-brand: #a4eefb;
   --color-prominent: #222628;
@@ -8,15 +10,23 @@
   --color-task-list: #8d77fe;
   --color-sub-task-list: #d585b6;
   --color-background: border-radius: 20px;
-  background: linear-gradient(197deg, #000 -17.01%, #3C3C3C -17%, #171616 20.06%, #1D1D1D 91.98%, #3C3C3C 120.63%);;
   --color-choice-task1: #a6ff7c;
   --color-choice-task2: #e52c2c;
   --color-choice-task3: #8d77fe;
   --color-choice-task4: #ffc37c;
   --color-choice-task5: #4447ba;
   --color-choice-task6: #a6ff7c;
+  --h1-font-size-mobile: 1.2rem;
+  --h2-font-size-mobile: 0.8rem;
+  --margin-top-header-mobile:70px;
+  --icon-width-mobile:20px;
+  --icon-height-mobile:20px;
+  --background-width-profile-píc-mobile: 35px;
+  --background-height-profile-píc-mobile: 35px;
+  --max-width-content-mobile: 80%;
 }
 
+/* Estilos generales */
 * {
   margin: 0;
   padding: 0;
@@ -25,9 +35,13 @@
 }
 
 body {
-  
-background: linear-gradient(197deg, #000 -17.01%, #3C3C3C -17%, #171616 20.06%, #1D1D1D 91.98%, #3C3C3C 120.63%);
-  min-height: 100vh;
+  background: #232526;
+    background: -webkit-linear-gradient(to right, #414345, #232526);
+    background: linear-gradient(to right, #1d1d1d, #232526);
+   
+   
+    min-height: 100vh; 
+    padding: 0.1px;
 }
 
 ul,
@@ -35,6 +49,16 @@ ol {
   list-style: none;
 }
 
+/* Estilos de encabezados */
+h1 {
+  font-size: var(--h1-font-size-mobile);
+}
+
+h2 {
+  font-size: var(--h2-font-size-mobile);
+}
+
+/* Estilos de texto */
 h1,
 h2,
 h3,
@@ -45,7 +69,25 @@ p {
   color: #fff;
 }
 
+/* Estilos de enlaces */
 a {
   text-decoration: none;
   color: currentColor;
+}
+
+/* Estilos de texto resaltado */
+strong {
+  color: var(--color-brand);
+}
+
+/* Estilos de iconos */
+.icon {
+  width: var(--icon-width-mobile);
+  height: var(--icon-height-mobile);
+}
+
+/* Estilos de imagen de perfil */
+.profile-pic {
+  width: var(--background-width-profile-píc-mobile);
+  height: var(--background-height-profile-píc-mobile);
 }
