@@ -1,7 +1,9 @@
 export function getCurrentTimeFormatted() {
   const now = new Date();
-  const hours = now.getHours();
-  const minutes = now.getMinutes();
-  const seconds = now.getSeconds();
-  return `${hours}:${minutes}:${seconds}`;
+  console.log(now);
+  const daysOfWeek = ["Dom", "Lun", "Mar", "Mie", "Jue", "Vie", "Sab"];
+  const months = ["Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Set", "Oct", "Nov", "Dic"];
+  const day = daysOfWeek[now.getDay()];
+  const month = months[now.getMonth()];
+  return `${day}, ${month} ${now.getDate()}`;
 }

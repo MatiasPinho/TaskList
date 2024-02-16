@@ -1,15 +1,10 @@
-import { useState, useContext } from "react";
 import "./App.css";
-import { pageContext } from "./context/pageContext";
-import { State } from "./context/State";
-import { Hola } from "./components/Hola";
 
+import { getCurrentTimeFormatted } from "./utils/getCurrentTime.js";
 function App() {
   return (
     <>
-      <State>
-        <Hola></Hola>
-      </State>
+      <h1>hola {getCurrentTimeFormatted()}</h1>
     </>
   );
 }
