@@ -1,0 +1,24 @@
+.navigation-container {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: var(--color-prominent);
+  }
+  
+  .navigation-link-circle-menu-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    background-color: var(--color-brand);
+    border-radius: 50%;
+    font-size: 20px;
+  }
+  
