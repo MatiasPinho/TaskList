@@ -1,29 +1,9 @@
 .home-container {
   margin: 0 auto;
   margin-top: var(--margin-top-header-mobile);
+  margin-bottom: var(--margin-bottom-header-mobile);
   max-width: var(--max-width-content-mobile);
-}
-
-.home-header-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  flex-wrap: wrap;
-  row-gap: 1rem;
-}
-
-.home-header-left {
-  display: flex;
-  gap: 1rem;
-  align-items: flex-end;
-}
-
-.home-header-subleft {
   display: flex;
   flex-direction: column;
-}
-
-.home-header-right {
-  display: flex;
-  gap: 1.5rem;
+  gap: 2rem;
 }

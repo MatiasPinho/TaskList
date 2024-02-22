@@ -3,7 +3,7 @@
 
 /* Variables personalizadas */
 :root {
-  --color-brand: #A6FF7C;
+  --color-brand: #A4EEFB;
   --color-prominent: #222628;
   --color-text-soft: #757575;
   --color-card-unique: #404040;
@@ -19,8 +19,9 @@
   --h1-font-size-mobile: 1.2rem;
   --h2-font-size-mobile: 0.8rem;
   --margin-top-header-mobile:70px;
-  --icon-width-mobile:20px;
-  --icon-height-mobile:20px;
+  --margin-bottom-header-mobile:70px;
+  --icon-width-mobile:18px;
+  --icon-height-mobile:18px;
   --background-width-profile-píc-mobile: 35px;
   --background-height-profile-píc-mobile: 35px;
   --max-width-content-mobile: 80%;
@@ -38,10 +39,12 @@ body {
   background: #232526;
     background: -webkit-linear-gradient(to right, #414345, #232526);
     background: linear-gradient(to right, #1d1d1d, #232526);
-   
-   
     min-height: 100vh; 
     padding: 0.1px;
+}
+
+main{
+  padding-bottom:3.8rem ;
 }
 
 ul,

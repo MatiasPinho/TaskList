@@ -1,0 +1,28 @@
+.recent-activity-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.recent-activity-h3-filter {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.recent-activity-h3 {
+  font-size: 16px;
+}
+
+.filter-activity-button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+.recent-activity-show {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

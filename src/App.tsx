@@ -1,19 +1,21 @@
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.css";
-import { Navigation } from "./Components/header/Header.js";
-import { Home } from "./pages/Home/Home.jsx";
-import { getCurrentTimeFormatted } from "./utils/getCurrentTime.js";
+
+import { Home } from "./pages/Home/Home.tsx";
+import { Root } from "./Root/Root.tsx";
+
 function App() {
-  return (
-    <>
-      <main>
-        <Home></Home>
-      </main>
-      <header>
-        <Navigation />
-      </header>
-      <footer></footer>
-    </>
-  );
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: (
+        <Root>
+          <Home />
+        </Root>
+      ),
+    },
+  ]);
+  return <RouterProvider router={router} />;
 }
 
 export default App;

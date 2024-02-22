@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Landing Page",
+    "subtitle": "Desarollo",
+    "id": 1
+  },
+  {
+    "title": "Ecommerce",
+    "subtitle": "Desarollo",
+    "id": 2
+  },
+  {
+    "title": "Gestion de empresas",
+    "subtitle": "Empresarial",
+    "id": 3
+  },
+  {
+    "title": "Marketing digital",
+    "subtitle": "Marketing",
+    "id": 4
+  },
+  {
+    "title": "Desarrollo de aplicaciones móviles",
+    "subtitle": "Desarrollo",
+    "id": 5
+  },
+  {
+    "title": "Gestión de proyectos",
+    "subtitle": "Proyectos",
+    "id": 6
+  }
+]

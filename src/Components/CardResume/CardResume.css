@@ -1,0 +1,38 @@
+.card-resume {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  row-gap: 2rem;
+  width: 47%;
+  height: 162px;
+  border-radius: 10px;
+  box-shadow: 4px 9px 9px #303030;
+}
+
+.task-resume {
+  background-color: var(--color-brand);
+}
+
+.card-resume-texts {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  margin-left: 6%;
+  margin-bottom: 10%;
+}
+
+.card-resume-emoji {
+  font-size: 20px;
+}
+
+.card-resume-title {
+  font-size: 16px;
+}
+.card-resume-title-task,
+.card-resume-resume-task {
+  color: black;
+}
+
+.project-resume {
+  background-color: var(--color-task-list);
+}
